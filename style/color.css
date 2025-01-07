@@ -1,0 +1,17 @@
+nav ul{
+    display: flex;
+    
+    
+   
+}
+nav li{
+    list-style: none;
+    margin-left: 30px;
+    
+}
+nav{
+    margin:10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

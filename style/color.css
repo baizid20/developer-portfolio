@@ -11,7 +11,7 @@
 }
 
  /* this is section general */
- 
+
  .primary-color{
     color: #FD6E0A;
 }
@@ -22,6 +22,13 @@
     padding:10px 20px;
     font-size: 20px;
     font-weight: bold;
+    border:none;
+}
+.overall{
+    background-image: url('/images/developer.png') , url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+    
 }
 
 /* This is navbar zone */
@@ -32,7 +39,7 @@ nav ul{
     gap: 100px;
     margin-right: 150px;
 }
- nav>div{
+ nav>div , .main{
     margin-left: 200px;
  }
 
@@ -59,3 +66,52 @@ nav{
     font-weight: bolder;
 
 }
+/* nav bar section ended here */
+/* Banner section start */
+.banner{
+    display: flex;
+    align-items: center;
+  
+}
+.greeting-text{
+    font-weight: bold;
+    font-size: 45px;
+    color: rgb(54, 52, 52) ;
+}
+.greeting-head-text{
+    font-weight: bold;
+    font-size: 45;
+    color: black;
+}
+.greeting-paragraph{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    color:#757575;
+}
+.banner-button{
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border:none;
+   padding:20px 40px;
+}
+
+.contact{
+    color: #FD6E0A;
+    background-color:white ;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+   padding:20px 40px;
+   margin-left: 30px;
+}
+.banner-img{
+    width: 584 auto;
+    height: 676 auto;
+    margin-right: 30px;
+}
+

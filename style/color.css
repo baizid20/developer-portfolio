@@ -10,30 +10,9 @@
     "wdth" 100;
 }
 
-/* This is navbar zone */
-
-nav ul{
-    display: flex;
-  
-}
-nav li{
-    list-style: none;
-    margin-left: 30px;
-    font-size: 20px;
-    
-}
-nav{
-    margin:10px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.mary-nav{
-    font-size: 45px;
-    font-weight: bolder;
-
-}
-.primary-color{
+ /* this is section general */
+ 
+ .primary-color{
     color: #FD6E0A;
 }
 .primary-button{
@@ -41,4 +20,42 @@ nav{
     color: white;
     border-radius: 5px;
     padding:10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* This is navbar zone */
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-right: 150px;
+}
+ nav>div{
+    margin-left: 200px;
+ }
+
+ .nav-text{
+    color: rgb(54, 52, 52) ;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+ }
+nav li{
+    list-style: none;
+    /* margin-left: 30px; */
+    font-size: 20px;
+    
+}
+nav{
+    margin:10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mary-nav{
+    font-size: 45px;
+    font-weight: bolder;
+
 }

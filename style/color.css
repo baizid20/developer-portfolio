@@ -115,3 +115,41 @@ nav{
     margin-right: 30px;
 }
 
+/* about me section start */
+
+.about-me{
+    border: 140px solid pink;
+    margin: 135px;
+    padding: 10px;
+   
+
+}
+.about-me-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45;
+    line-height: auto;
+}
+
+.about-topic{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    
+}
+.about-p1{
+    text-align: center;
+    line-height: 30px;
+    font-size: 20;
+    color:#757575;
+    font-weight: normal;
+}
+
+.about-p2{
+    line-height: 30px;
+    font-size: 20;
+    color:#474747;
+    font-weight: bolder;
+}
+
+
